@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    background-color: rgb(89, 119, 163);
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  .img{
+    height: 40px;
+  }
+  .logo{
+    height: 100%;
+  }
+  .ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .ul li {
+    margin: 0 10px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+  }
