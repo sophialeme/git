@@ -1,42 +1,395 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin: 0;
+}
+body{
+  background-color: rgb(205, 225, 255);  
+}
+.header{
+  width: 100%;
+  background-color: rgb(89, 119, 163);
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+}
+.footer{
+  width: 100%;
+  background-color: rgb(89, 119, 163);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+.ul{
+  display: flex;
+  flex-direction: column;
+}
+.ul2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.ul li {
+  margin: 0 10px;
+  list-style: none;
+  color: rgb(0, 0, 0);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.ul2 li {
+  margin: 0 10px;
+  list-style: none;
+  color: rgb(255, 255, 255);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.img{
+  height: 40px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo{
+  height: 100%;
+}
+.sociais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#baner {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://i0.wp.com/www.indavoula.com.br/wp-content/uploads/2019/09/como-vender-foto-na-internet-01.png?fit=1200%2C667&ssl=1);
+  background-position: 70% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: border-color 0.5s ease;
+  margin-bottom: 20px;
+}
+.re{
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 150px 170px;
+  gap: 10px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.re1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+  background: url(https://i.pinimg.com/enabled_lo_mid/736x/e7/db/3e/e7db3eab37b4bc2ec5c3bd68f3eb952d.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.re2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+  background: url(https://i.pinimg.com/enabled_lo_mid/736x/0e/9b/8d/0e9b8d7be8ef4213d74afc9568668f4e.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border-radius: 30px;
+}
+.retangulo{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px;
+  gap: 10px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retangulo1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/736x/61/a0/22/61a02263248ddd9ae5ed8dba6fae9ea7.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/f1/1f/84/f11f84430e7e360e0ee1f45db4af898e.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/8e/8d/ad/8e8dad3c385da5e65c6dd99d1fcb1276.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/474x/ae/6d/d3/ae6dd31a05237ca4ae2ca2b854500565.jpg);
+  background-position: 10% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/736x/61/a0/22/61a02263248ddd9ae5ed8dba6fae9ea7.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/f1/1f/84/f11f84430e7e360e0ee1f45db4af898e.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/8e/8d/ad/8e8dad3c385da5e65c6dd99d1fcb1276.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/474x/ae/6d/d3/ae6dd31a05237ca4ae2ca2b854500565.jpg);
+  background-position: 10% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+}
+.retangulo9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/736x/61/a0/22/61a02263248ddd9ae5ed8dba6fae9ea7.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulo0{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/f1/1f/84/f11f84430e7e360e0ee1f45db4af898e.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/236x/8e/8d/ad/8e8dad3c385da5e65c6dd99d1fcb1276.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.retangulos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+  background: url(https://i.pinimg.com/474x/ae/6d/d3/ae6dd31a05237ca4ae2ca2b854500565.jpg);
+  background-position: 10% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.re p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.retangulo p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cor{
+  width: 200px;
+  height: 35%;
+  background-color: rgb(15, 40, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+@media (max-width:  375px){
+  .retangulo{
+      display: grid;
+      grid-template-columns: 200px;
+      grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+      gap: 10px 15px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width:  426px){
+  .re{
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 170px;
+      gap: 10px 15px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .retangulo{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 150px 150px 150px 150px;
+      gap: 10px 15px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (min-width:  769px){
+  #baner {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url(https://i0.wp.com/www.indavoula.com.br/wp-content/uploads/2019/09/como-vender-foto-na-internet-01.png?fit=1200%2C667&ssl=1);
+      background-position: 70% 0%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: border-color 0.5s ease;
+      margin-bottom: 20px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .footer{
+      width: 100%;
+      background-color: rgb(89, 119, 163);
+      display: flex;
+      flex-direction: row;
+      padding: 30px 5px;
+      align-items: center;
+      justify-content: space-around;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 20px;
+  }
+  .sociais2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .sociais{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .re{
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 170px;
+      gap: 10px 15px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .retangulo{
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px;
+      grid-template-rows: 150px 150px 150px;
+      gap: 10px 15px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
 }
