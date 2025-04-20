@@ -1,27 +1,15 @@
 *{
   margin: 0;
 }
-/* CSS para centralizar tudo no meio da tela */
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column; /* empilha os elementos verticalmente */
-  align-items: center; /* centraliza horizontalmente */
-  background-color: #d1e0ff; /* cor de fundo parecida com a da imagem */
-  font-family: Arial, sans-serif;
-}
-
-footer,
-header,
-main {
-  width: 100%;
-  max-width: 1200px; /* define uma largura máxima para o conteúdo */
-}
-
 body{
   background-color: rgb(205, 225, 255);  
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .header{
   width: 100%;
   background-color: rgb(89, 119, 163);
