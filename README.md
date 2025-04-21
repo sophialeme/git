@@ -16,4 +16,4 @@ Instruções para clonar e executar o projeto.
 
 4.Reflexão Final
 
-Desafios enfrentados e aprendizados obtidos.
+Foi um pouco dificil conseguir se achar nos codigos para ajeitar da forma correta mas consegui aprender e resolver
