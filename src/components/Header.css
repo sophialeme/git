@@ -1,28 +1,25 @@
-/* Estilos para o Header */
-#header {
-    background-color: #333;
-    padding: 20px;
-    color: white;
-    text-align: center;
+.header{
+    width: 100%;
+    background-color: rgb(89, 119, 163);
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
   }
-  
-  #header h1 {
-    font-size: 2rem;
-    margin: 0;
+  .img{
+    height: 40px;
   }
-  
-  #header nav {
-    margin-top: 15px;
+  .logo{
+    height: 100%;
   }
-  
-  #header nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1rem;
+  .ul{
+    display: flex;
+    flex-direction: column;
   }
-  
-  #header nav a:hover {
-    text-decoration: underline;
+  .ul li {
+    margin: 0 10px;
+    list-style: none;
+    color: rgb(0, 0, 0);
   }
-  
