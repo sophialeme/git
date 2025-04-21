@@ -4,7 +4,7 @@ export default function Footer() {
         <div className="logo-container">
           <img
             className="logo"
-            src="https://img.icons8.com/?size=100&id=DMouakoWuTD8&format=png&color=000000"
+            src="https://img.icons8.com/?size=100&id=DMouakoWuTB6&format=png&color=000000"
             alt="Logo"
           />
         </div>

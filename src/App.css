@@ -1,9 +1,15 @@
-*{
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-  background-color: rgb(205, 225, 255);  
+
+body {
+  width: 100%;
+  overflow-x: hidden; 
+  background-color: rgb(181, 202, 233);
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -20,17 +26,19 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: fixed;
 }
-.footer{
-  width: 100%;
+.footer {
+  width: 100vw; /* Pega toda a largura da viewport */
   background-color: rgb(89, 119, 163);
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* ou row, se preferir lado a lado */
   padding: 30px 5px;
   align-items: center;
   justify-content: space-around;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
+  box-sizing: border-box;
 }
+
 .ul{
   display: flex;
   flex-direction: column;
@@ -65,6 +73,7 @@ body{
   align-items: center;
 }
 #baner {
+  width: 100vw;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -77,6 +86,7 @@ body{
   transition: border-color 0.5s ease;
   margin-bottom: 20px;
 }
+
 .re{
   display: grid;
   grid-template-columns: 300px;
@@ -122,19 +132,21 @@ body{
   justify-content: center;
   align-items: center;
 }
-.retangulo1{
+.retangulo1 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 150px;
   width: 200px;
-  background: url(https://i.pinimg.com/736x/61/a0/22/61a02263248ddd9ae5ed8dba6fae9ea7.jpg);
-  background-position: 10% 20%;
+  background-image: url('https://i.pinimg.com/736x/61/a0/22/61a02263248ddd9ae5ed8dba6fae9ea7.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
+
+
 .retangulo2{
   display: flex;
   align-items: center;
