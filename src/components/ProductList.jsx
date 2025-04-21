@@ -2,24 +2,21 @@ import React from 'react';
 import './ProductList.css';
 
 const ProductList = () => {
-  const products = [
-    { id: 1, name: 'Produto 1', description: 'Descrição do Produto 1', price: '$50', imgSrc: 'produto1.jpg' },
-    { id: 2, name: 'Produto 2', description: 'Descrição do Produto 2', price: '$75', imgSrc: 'produto2.jpg' },
-    { id: 3, name: 'Produto 3', description: 'Descrição do Produto 3', price: '$100', imgSrc: 'produto3.jpg' }
-  ];
-
   return (
-    <div id="product-list">
-      {products.map(product => (
-        <div key={product.id} className="product-card">
-          <img src={`../assets/images/${product.imgSrc}`} alt={product.name} />
-          <h2>{product.name}</h2>
-          <p>{product.description}</p>
-          <div className="price">{product.price}</div>
-          <button>Comprar</button>
-        </div>
-      ))}
-    </div>
+    <div className="retangulo">
+    <div className="retangulo1"> <p>Pacote</p><p>Básico</p><p>R$ 400,00</p> </div>
+    <div className="retangulo2"> <p>Pacote</p><p>Família</p><p>R$ 1.000,00</p> </div>
+    <div className="retangulo3"> <p>Pacote</p><p>Premium</p><p>R$ 2.000,00</p> </div>
+    <div className="retangulo4"> <p>Pacote</p><p>Casamento</p><p>R$ 6.000,00</p> </div>
+    <div className="retangulo5"> <p>Pacote</p><p>Empresarial</p><p>R$ 1.500,00</p> </div>
+    <div className="retangulo6"> <p>Pacote</p><p>Infantil</p><p>R$ 800,00</p> </div>
+    <div className="retangulo7"> <p>Pacote</p><p>Temático</p><p>R$ 1.200,00</p> </div>
+    <div className="retangulo8"> <p>Pacote de</p><p>Assinatura</p><p>R$ 1.500,00</p><p> por mês</p> </div>
+    <div className="retangulo9"> <p>Pacote Mini</p><p>Ensaio</p><p>R$ 300,00</p> </div>
+    <div className="retangulo0"> <p>Pacote</p><p>Pets</p><p>R$ 700,00</p> </div>
+    <div className="retangulol"> <p>Pacote Evento</p><p>Social</p><p>R$ 2.000,00</p> </div>
+    <div className="retangulos"> <p>Pacote</p><p>Maternidade</p><p>R$ 3.500,00</p> </div>
+  </div>
   );
 };
 
