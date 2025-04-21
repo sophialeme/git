@@ -1,28 +1,26 @@
-export default function ProductList() {
-  const pacotes = [
-    { titulo: 'Pacote Básico', preco: 'R$ 400,00' },
-    { titulo: 'Pacote Família', preco: 'R$ 1.000,00' },
-    { titulo: 'Pacote Premium', preco: 'R$ 2.000,00' },
-    { titulo: 'Pacote Casamento', preco: 'R$ 6.000,00' },
-    { titulo: 'Pacote Empresarial', preco: 'R$ 1.500,00' },
-    { titulo: 'Pacote Infantil', preco: 'R$ 800,00' },
-    { titulo: 'Pacote Temático', preco: 'R$ 1.200,00' },
-    { titulo: 'Pacote de Assinatura', preco: 'R$ 1.500,00/mês' },
-    { titulo: 'Mini Ensaio', preco: 'R$ 300,00' },
-    { titulo: 'Pacote Pets', preco: 'R$ 700,00' },
-    { titulo: 'Evento Social', preco: 'R$ 2.000,00' },
-    { titulo: 'Pacote Maternidade', preco: 'R$ 3.500,00' },
-  ]
+import React from 'react';
+import './ProductList.css';
+
+const ProductList = () => {
+  const products = [
+    { id: 1, name: 'Produto 1', description: 'Descrição do Produto 1', price: '$50', imgSrc: 'produto1.jpg' },
+    { id: 2, name: 'Produto 2', description: 'Descrição do Produto 2', price: '$75', imgSrc: 'produto2.jpg' },
+    { id: 3, name: 'Produto 3', description: 'Descrição do Produto 3', price: '$100', imgSrc: 'produto3.jpg' }
+  ];
 
   return (
-    <div className="retangulo">
-      {pacotes.map((item, index) => (
-        <div key={index} className="pacote">
-          <p>{item.titulo}</p>
-          <p>{item.preco}</p>
+    <div id="product-list">
+      {products.map(product => (
+        <div key={product.id} className="product-card">
+          <img src={`../assets/images/${product.imgSrc}`} alt={product.name} />
+          <h2>{product.name}</h2>
+          <p>{product.description}</p>
+          <div className="price">{product.price}</div>
+          <button>Comprar</button>
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
+export default ProductList;

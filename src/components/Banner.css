@@ -1,0 +1,33 @@
+#banner {
+    height: 300px;
+    background: url('../assets/images/background1.jpg') no-repeat center center/cover;
+  }
+  .re {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 170px;
+    gap: 10px 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .re1, .re2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+  }
+  .re1 {
+    background: url(https://i.pinimg.com/enabled_lo_mid/736x/e7/db/3e/e7db3eab37b4bc2ec5c3bd68f3eb952d.jpg) center/cover no-repeat;
+  }
+  .re2 {
+    background: url(https://i.pinimg.com/enabled_lo_mid/736x/0e/9b/8d/0e9b8d7be8ef4213d74afc9568668f4e.jpg) center/cover no-repeat;
+  }
+  .re p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  

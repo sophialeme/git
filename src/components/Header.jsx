@@ -1,16 +1,17 @@
-export default function Header() {
-   return (
-     <header className="header">
-       <div className="img">
-         <img className="logo" src="https://img.icons8.com/?size=100&id=DMouakoWuTB6&format=png&color=000000" />
-       </div>
-       <div>
-         <ul className="ul">
-           <li>Luz & Sombra</li>
-           <li>Fotografias</li>
-         </ul>
-       </div>
-     </header>
-   )
- }
- 
+import React from 'react';
+import './Header.css';
+
+const Header = () => {
+  return (
+    <header id="header">
+      <h1>Loja Online</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/products">Produtos</a>
+        <a href="/contact">Contato</a>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
