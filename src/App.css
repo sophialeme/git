@@ -5,9 +5,14 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  overflow-x: hidden;
-  background-color: rgb(181, 202, 233);
+}
+
+#root {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -74,19 +79,7 @@ body {
   font-weight: 600;
 }
 
-/* Footer */
-.footer {
-  width: 100vw;
-  background-color: rgb(89, 119, 163);
-  display: flex;
-  flex-direction: column;
-  padding: 30px 5px;
-  align-items: center;
-  justify-content: space-around;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-  box-sizing: border-box;
-}
+
 
 .social-media {
   display: flex;
@@ -103,7 +96,6 @@ body {
   text-align: center;
 }
 
-/* Media Queries */
 @media (max-width: 375px) {
   .retangulo {
     display: grid;
